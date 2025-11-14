@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DeliverIT.Pagamento.Domain\DeliverIT.Pagamento.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
