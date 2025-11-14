@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\DeliverIT.Pagamento.Application\DeliverIT.Pagamento.Application.csproj" />
   </ItemGroup>
 
 </Project>
