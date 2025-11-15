@@ -1,4 +1,5 @@
-﻿using DeliverIT.Pagamento.Domain.Entities;
+﻿using System.IO;
+using DeliverIT.Pagamento.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DeliverIT.Pagamento.Infrastructure.Data
@@ -7,8 +8,8 @@ namespace DeliverIT.Pagamento.Infrastructure.Data
     {
         public DbSet<ContaPagar> ContasPagar {  get; set; }
 
-        public PagamentoDbContext(DbContextOptions<PagamentoDbContext> options) : base(options) 
-        { 
+        public PagamentoDbContext(DbContextOptions<PagamentoDbContext> options) : base(options)
+        {
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
