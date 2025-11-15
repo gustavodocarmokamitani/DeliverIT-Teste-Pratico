@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using DeliverIT.Pagamento.Application.DTOs;
 using DeliverIT.Pagamento.Application.Interfaces;
+using DeliverIT.Pagamento.Domain.Interfaces;
 using DeliverIT.Pagamento.Domain.Entities;
 using System.Linq;
 

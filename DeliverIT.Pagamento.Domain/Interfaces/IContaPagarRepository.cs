@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DeliverIT.Pagamento.Domain.Entities;
 
-namespace DeliverIT.Pagamento.Application.Interfaces
+namespace DeliverIT.Pagamento.Domain.Interfaces
 {
     public interface IContaPagarRepository
     {
