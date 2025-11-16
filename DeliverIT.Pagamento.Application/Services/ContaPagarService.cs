@@ -43,9 +43,7 @@ namespace DeliverIT.Pagamento.Application.Services
                 ValorOriginal = c.ValorOriginal,
                 ValorCorrigido = c.ValorCorrigido,
                 DiasEmAtraso = c.DiasEmAtraso,
-                DataVencimento = c.DataVencimento,
                 DataPagamento = c.DataPagamento,
-                RegraAplicada = c.RegraAplicada.ToString(),
             }).ToList();
 
             return listaDTO;
