@@ -55,7 +55,7 @@ namespace DeliverIT.Pagamento.Domain.Entities
             // Validação da data de pagamento <= data atual
             if (dataPagamento.Date > DateTime.Today) 
             {
-                throw new ArgumentException("A data de pagamento não pode ser uma data futura.", nameof(dataPagamento));
+                throw new ArgumentException("A data de pagamento não pode ser uma data futura.");
             }
 
             var conta = new ContaPagar
